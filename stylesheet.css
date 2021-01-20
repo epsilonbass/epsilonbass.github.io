@@ -1,0 +1,39 @@
+.header{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:rgb(230, 230, 230);
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+.headerContent{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 75pt;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+h2{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+body {
+    background-color: rgb(23, 23, 23)
+    
+}
+.headliner{
+    padding-top: 250px;
+    text-align: center;
+    background-image: linear-gradient(rgb(55, 55, 55), black);
+    height: 550px;
+}
+
+#logo{
+    width: 85%;
+}
