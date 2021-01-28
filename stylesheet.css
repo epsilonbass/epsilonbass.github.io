@@ -2,6 +2,7 @@ body {
     background-color: rgb(35, 38, 43);
     padding:0;
     margin:0;
+    color:rgb(235, 235, 235)
 }
 .container{
     display: grid;
@@ -33,9 +34,8 @@ body {
     padding-top: 25px;
     grid-column: 1 / 6;
     width: 100%;
-    max-width: 1000px;
+    padding-bottom: 25px;
     margin: 0 auto; 
-    
     
    
 }
@@ -49,12 +49,70 @@ body {
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    margin: auto;
     
 }
 .video-responsive iframe{
+    
+   
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+}
+.vidgrid{
+    display: none;
+    padding-top: 50px;
+    grid-column: 2 / 5;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-items: center;
+    padding-bottom: 75px;
+    
+}
+.vidbox{
+    background-color: hotpink;
+    height: 130px;
+    width: 250px;
+
+}
+.about{ 
+    display:grid;
+    grid-template-columns: auto 60% 20% auto;
+    background-color: rgb(55, 58, 63);
+    background-image: linear-gradient(rgb(35, 38, 43), rgb(61, 67, 72), rgb(35, 38, 43));
+   padding-top: 30px;
+    color: rgb(235, 235, 235);
+    text-align: left;
+    align-content: center;
+    
+}
+.aboutinfo {
+    padding: 0px 50px;
+    justify-self: center;
+    
+   
+    border-radius: 50px;
+    
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    font-weight: lighter;
+}
+
+#aboutphoto{
+    width: 18vh;
+    border: solid;
+    border-width: 8px;
+  
+    border-radius: 50px;
+}
+
+.photocontainer{
+    align-self: start;
+    padding-top: 20px;
 }
