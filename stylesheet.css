@@ -69,7 +69,8 @@ nav{
 
 
 #logo{
-    max-width: 500px;
+    width: 500px;
+    height: 158px;
 }
 
 .video-container{
@@ -136,6 +137,8 @@ p{
 @media (max-width: 800px){
     #logo {
         max-width: 300px;
+        height: 114.81px;
+       object-fit: contain;
         padding: 20px 0 0 0;
     }
     .about {
